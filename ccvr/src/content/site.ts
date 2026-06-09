@@ -222,7 +222,7 @@ export const teamMembers = {
       title: "Kinesitherapeute, specialisee en kinesitherapie respiratoire",
       description:
         "Kinesitherapeute diplomee, Julie Frachette accompagne les patients atteints de pathologies respiratoires chroniques ou aiguës. Elle intervient en rehabilitation respiratoire au sein de la CCVR.",
-      image: "/images/placeholder-doctor.jpg",
+      image: "/images/julieFrachette.png",
     },
   ],
   infirmieres: [
@@ -232,13 +232,6 @@ export const teamMembers = {
         "Infirmiere specialisee en cardiologie et Responsable des programmes d'accompagnement patient",
       description:
         "Infirmiere specialisee, Amandine coordonne les programmes d'accompagnement patient et veille a la qualite de la prise en charge tout au long du parcours de soins.",
-      image: "/images/placeholder-doctor.jpg",
-    },
-    {
-      name: "Allison Leroux",
-      title: "Infirmiere specialisee en cardiologie",
-      description:
-        "Infirmiere specialisee en cardiologie, Allison assure les examens complementaires et accompagne les patients avec professionnalisme et bienveillance.",
       image: "/images/placeholder-doctor.jpg",
     },
   ],

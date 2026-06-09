@@ -57,9 +57,11 @@ export default function KinesitherapieRespiratoire() {
             </div>
 
             <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-card)] bg-perle">
-              <div className="absolute inset-0 flex items-center justify-center text-gris-moyen">
-                <span className="body-m">Photo Julie Frachette</span>
-              </div>
+              <img
+                src="/images/julieFrachette.png"
+                alt="Julie Frachette, kinesitherapeute respiratoire"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
           </div>
         </Container>
