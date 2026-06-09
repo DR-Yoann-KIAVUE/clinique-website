@@ -52,7 +52,7 @@ export default function EquipePage() {
   return (
     <>
       <PageHero
-        ticker="LES EQUIPES"
+        variant="wave"
         title="Les Equipes"
         subtitle="Nous croyons que notre equipe est notre atout le plus precieux. Chaque jour, avec bonne humeur et bienveillance, nous mettons tout en oeuvre pour offrir a nos patients un accompagnement humain et de qualite."
       />

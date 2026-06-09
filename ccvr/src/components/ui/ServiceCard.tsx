@@ -34,20 +34,21 @@ export function ServiceCard({ title, description, icon, href }: ServiceCardProps
     <a
       href={href}
       className={cn(
-        "group flex flex-col gap-4 rounded-[var(--radius-card)] p-6",
+        "group relative flex flex-col gap-4 overflow-hidden rounded-[var(--radius-card)] p-6",
         "bg-[var(--gradient-rosee-cardinale)] border border-transparent",
         "transition-all duration-[180ms] ease-in-out",
         "hover:-translate-y-[3px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-cardinal"
       )}
     >
-      <div className="flex h-12 w-12 items-center justify-center rounded-[7px] bg-teinte-chaude">
+
+      <div className="relative flex h-12 w-12 items-center justify-center rounded-[7px] bg-teinte-chaude">
         {IconComponent && (
           <IconComponent size={24} strokeWidth={1.2} className="text-cardinal" />
         )}
       </div>
-      <h3 className="h3">{title}</h3>
-      <p className="body-m text-gris-moyen">{description}</p>
-      <span className="mt-auto inline-flex items-center gap-2 font-display font-bold text-[10px] uppercase tracking-[0.14em] text-cardinal">
+      <h3 className="relative h3">{title}</h3>
+      <p className="relative body-m text-gris-moyen">{description}</p>
+      <span className="relative mt-auto inline-flex items-center gap-2 font-display font-bold text-[10px] uppercase tracking-[0.14em] text-cardinal">
         En savoir plus
         <ArrowRight
           size={14}
@@ -55,6 +56,7 @@ export function ServiceCard({ title, description, icon, href }: ServiceCardProps
           className="transition-transform group-hover:translate-x-1"
         />
       </span>
+
     </a>
   );
 }

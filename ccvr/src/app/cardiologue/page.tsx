@@ -15,7 +15,7 @@ export default function CardiologuePage() {
   return (
     <>
       <PageHero
-        ticker="VOTRE CARDIOLOGUE"
+        variant="flow"
         title="Votre cardiologue a proximite"
         subtitle="La Clinique Cardiovasculaire Raphaeloise est facilement accessible depuis Saint-Raphael, Frejus et Puget-sur-Argens."
       />

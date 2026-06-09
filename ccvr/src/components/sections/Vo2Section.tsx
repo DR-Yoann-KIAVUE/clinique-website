@@ -31,9 +31,11 @@ export function Vo2Section() {
             </div>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-card)] bg-perle">
-            <div className="absolute inset-0 flex items-center justify-center text-gris-moyen">
-              <span className="body-m">Photo test VO2max</span>
-            </div>
+            <img
+              src="/images/vo2max-siteweb-v2.png"
+              alt="Test VO2max a la Clinique Cardiovasculaire Raphaeloise"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
           </div>
         </div>
       </Container>

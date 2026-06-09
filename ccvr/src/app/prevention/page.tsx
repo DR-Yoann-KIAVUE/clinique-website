@@ -25,7 +25,7 @@ export default function PreventionPage() {
   return (
     <>
       <PageHero
-        ticker="PREVENTION"
+        variant="flow"
         title="Prevention"
         subtitle="Prevention cardiovasculaire : ce que propose notre clinique."
         accroche="Anticipez aujourd'hui pour proteger votre coeur demain."
@@ -55,9 +55,8 @@ export default function PreventionPage() {
             </p>
             <div className="mt-8">
               <Button
-                variant="outline-anthracite"
+                variant="outline-white"
                 href="#actions"
-                className="border-blanc text-blanc hover:bg-blanc hover:text-cardinal"
               >
                 Decouvrez notre approche globale
                 <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
@@ -201,9 +200,8 @@ export default function PreventionPage() {
               Prenez rendez-vous pour un bilan cardiovasculaire complet.
             </p>
             <Button
-              variant="outline-anthracite"
+              variant="outline-white"
               href={siteConfig.rdvUrl}
-              className="border-blanc text-blanc hover:bg-blanc hover:text-cardinal"
             >
               Prendre rendez-vous
               <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />

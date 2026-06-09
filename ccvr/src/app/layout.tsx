@@ -63,7 +63,7 @@ export default function RootLayout({
       lang="fr"
       className={`${inter.variable} ${exo2.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-body text-anthracite bg-blanc">
+      <body className="min-h-full flex flex-col font-body text-anthracite bg-blanc overflow-x-hidden">
         <JsonLd data={medicalClinicSchema()} />
         <Header />
         <main className="flex-1">{children}</main>

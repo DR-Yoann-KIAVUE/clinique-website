@@ -16,7 +16,7 @@ export default function ConsultationsPage() {
   return (
     <>
       <PageHero
-        ticker="CONSULTATIONS CARDIOLOGIE"
+        variant="flow"
         title="Consultations Cardiologie"
         subtitle="La Clinique Cardiovasculaire Raphaeloise, situee a Saint-Raphael et facilement accessible depuis Frejus et l'ensemble du Var, est exclusivement specialisee en maladies cardiovasculaires. Notre equipe de cardiologues et d'infirmieres specialisees vous accueille pour des consultations de qualite, fondees sur l'ecoute, la bienveillance et l'expertise medicale."
         accroche="Consultations cardiologiques uniquement — pas d'actes techniques ni d'hospitalisation."
@@ -135,9 +135,8 @@ export default function ConsultationsPage() {
               de 8h30 a 18h30.
             </p>
             <Button
-              variant="outline-anthracite"
+              variant="outline-white"
               href={siteConfig.rdvUrl}
-              className="border-blanc text-blanc hover:bg-blanc hover:text-cardinal"
             >
               Prendre rendez-vous
               <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />

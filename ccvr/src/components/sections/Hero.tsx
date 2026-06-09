@@ -37,9 +37,11 @@ export function Hero() {
         <div className="mt-12 grid grid-cols-2 gap-4 lg:mt-16 lg:grid-cols-3 lg:gap-5">
           {/* Card 1 — image */}
           <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-perle">
-            <div className="absolute inset-0 flex items-center justify-center text-gris-moyen">
-              <span className="body-m">Photo clinique</span>
-            </div>
+            <img
+              src="/images/clinique.png"
+              alt="Clinique Cardiovasculaire Raphaeloise — interieur"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
           </div>
 
           {/* Card 2 — image */}

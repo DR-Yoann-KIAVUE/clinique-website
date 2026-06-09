@@ -42,7 +42,6 @@
   font-size: 42px;
   line-height: 1.0;
   letter-spacing: -0.01em;
-  color: var(--color-anthracite);
 }
 
 .h2 {
@@ -51,7 +50,6 @@
   font-size: 28px;
   line-height: 1.15;
   letter-spacing: 0;
-  color: var(--color-anthracite);
 }
 
 .h3 {
@@ -60,7 +58,6 @@
   font-size: 20px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: var(--color-anthracite);
 }
 
 .eyebrow {
@@ -70,7 +67,6 @@
   line-height: 1.4;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-anthracite);
 }
 
 .body-l {
@@ -78,7 +74,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--color-anthracite);
 }
 
 .body-m {
@@ -86,7 +81,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  color: var(--color-anthracite);
 }
 
 /* Base styles */

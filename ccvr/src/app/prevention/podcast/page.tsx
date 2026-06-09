@@ -49,7 +49,7 @@ export default function PodcastPage() {
   return (
     <>
       <PageHero
-        ticker="PODCAST DRYK.CARDIO"
+        variant="rise"
         title="Podcast Dryk.Cardio"
         subtitle="Votre rendez-vous audio pour comprendre, prevenir et proteger votre coeur."
       />

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/layout/Container";
+import { PageHero } from "@/components/sections/PageHero";
 import { siteConfig } from "@/content/site";
 
 export const metadata: Metadata = {
@@ -11,10 +12,12 @@ export const metadata: Metadata = {
 
 export default function MentionsLegalesPage() {
   return (
-    <section className="py-16 lg:py-24">
-      <Container>
-        <div className="mx-auto max-w-3xl">
-          <h1 className="h1 mb-10">Mentions legales</h1>
+    <>
+      <PageHero variant="rise" title="Mentions legales" />
+
+      <section className="pb-16 lg:pb-24">
+        <Container>
+          <div className="mx-auto max-w-3xl">
 
           <div className="flex flex-col gap-8 body-l text-gris-moyen">
             <div>
@@ -116,5 +119,6 @@ export default function MentionsLegalesPage() {
         </div>
       </Container>
     </section>
+    </>
   );
 }

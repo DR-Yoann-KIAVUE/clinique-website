@@ -15,7 +15,7 @@ export default function AssociationLucianiPage() {
   return (
     <>
       <PageHero
-        ticker="ASSOCIATION LUCIANI"
+        variant="arch"
         title="Association LUCIANI"
         subtitle="Informez et Formez-vous."
       />
@@ -141,9 +141,8 @@ export default function AssociationLucianiPage() {
               nos actions.
             </p>
             <Button
-              variant="outline-anthracite"
+              variant="outline-white"
               href="#"
-              className="border-blanc text-blanc hover:bg-blanc hover:text-cardinal"
             >
               Rejoindre l&apos;association
               <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />

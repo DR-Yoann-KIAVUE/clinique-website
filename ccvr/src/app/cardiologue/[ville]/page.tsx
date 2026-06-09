@@ -34,7 +34,7 @@ export default async function CardiologueVillePage({ params }: Props) {
   return (
     <>
       <PageHero
-        ticker={`CARDIOLOGUE ${city.name.toUpperCase()}`}
+        variant="rise"
         title={city.heroTitle}
         subtitle={city.heroSubtitle}
       >

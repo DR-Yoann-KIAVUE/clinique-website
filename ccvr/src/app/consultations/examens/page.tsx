@@ -17,7 +17,7 @@ export default function ExamensPage() {
   return (
     <>
       <PageHero
-        ticker="NOS EXAMENS"
+        variant="rise"
         title="Clinique Cardiovasculaire Raphaeloise"
         subtitle="Nous proposons une gamme complete d'examens, tels que l'electrocardiogramme et l'echographie cardiaque, avec une priorite sur la prevention."
       >

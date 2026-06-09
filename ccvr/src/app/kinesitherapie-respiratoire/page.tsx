@@ -17,7 +17,7 @@ export default function KinesitherapieRespiratoire() {
   return (
     <>
       <PageHero
-        ticker="KINESITHERAPIE RESPIRATOIRE"
+        variant="wave"
         title="Kinesitherapie Respiratoire"
         subtitle="Kinesitherapie respiratoire a la Clinique Cardiovasculaire Raphaeloise : Respirez mieux, vivez mieux."
       />
@@ -179,9 +179,8 @@ export default function KinesitherapieRespiratoire() {
               Raphaeloise, Saint-Raphael.
             </p>
             <Button
-              variant="outline-anthracite"
+              variant="outline-white"
               href={siteConfig.rdvUrl}
-              className="border-blanc text-blanc hover:bg-blanc hover:text-cardinal"
             >
               Je prends rendez-vous
               <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />

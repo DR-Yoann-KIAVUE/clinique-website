@@ -62,11 +62,16 @@ export function LocationSection() {
             </div>
           </div>
 
-          {/* Map placeholder */}
-          <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-card)] bg-separateur lg:aspect-auto lg:min-h-[360px]">
-            <div className="absolute inset-0 flex items-center justify-center text-gris-moyen">
-              <span className="body-m">Google Maps — a integrer</span>
-            </div>
+          {/* Google Maps */}
+          <div className="relative overflow-hidden rounded-[var(--radius-card)] bg-separateur lg:min-h-[360px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.5!2d6.7688!3d43.4253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ce95f8b1a3f7e7%3A0x0!2s87%20Avenue%20Archim%C3%A8de%2C%2083700%20Saint-Rapha%C3%ABl!5e0!3m2!1sfr!2sfr!4v1700000000000"
+              className="absolute inset-0 h-full w-full border-0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Clinique Cardiovasculaire Raphaeloise — Google Maps"
+            />
           </div>
         </div>
       </Container>

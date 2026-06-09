@@ -55,6 +55,18 @@ export function TeamSection() {
                 paramedical jusqu&apos;aux expertises en communication,
                 pedagogie, et technologie.
               </p>
+              <p className="body-l text-gris-moyen">
+                Nous serons a vos cotes pour preserver, retrouver ou ameliorer
+                votre sante – un etat de complet bien-etre physique, mental et
+                social, bien au-dela de l&apos;absence de maladie.
+              </p>
+              <p className="body-l italic text-gris-moyen">
+                Avec mon plus sincere engagement pour chaque battement de votre
+                coeur,
+              </p>
+              <p className="font-display text-sm font-bold text-anthracite">
+                Dr Yoann Kiavue
+              </p>
             </div>
           </div>
         </div>

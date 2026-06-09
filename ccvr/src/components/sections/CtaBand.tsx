@@ -18,9 +18,8 @@ export function CtaBand() {
           </div>
           <div className="flex flex-wrap justify-center gap-3">
             <Button
-              variant="outline-anthracite"
+              variant="outline-white"
               href={siteConfig.rdvUrl}
-              className="border-blanc text-blanc hover:bg-blanc hover:text-cardinal"
             >
               Prendre RDV
               <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
