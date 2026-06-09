@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cardinal: #B1121B;
+  --color-rouge-profond: #8E0D15;
+  --color-rouge-actif: #6B0910;
+  --color-anthracite: #373435;
+  --color-noir-profond: #0D0C0C;
+  --color-blanc: #FFFFFF;
+  --color-teinte-chaude: #F7ECEC;
+  --color-perle: #F2F1F1;
+  --color-separateur: #E0DEDF;
+  --color-gris-moyen: #767274;
+  --color-succes: #1E7D52;
+  --color-succes-bg: #EEF7F2;
+  --color-info: #1A5C9E;
+  --color-info-bg: #EEF3FB;
+  --color-alerte: #9B6400;
+  --color-alerte-bg: #FDF6E7;
+  --color-erreur: #B1121B;
+  --color-erreur-bg: #FBF0F1;
+
+  --font-display: var(--font-termina), var(--font-exo2), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+
+  --radius-btn: 5px;
+  --radius-card: 14px;
+}
+
+/* Gradients (charte §3.6) */
+:root {
+  --gradient-braise-douce: linear-gradient(135deg, #B1121B, #CD6366 55%, #F2F1F1);
+  --gradient-nuit-cardinale: linear-gradient(160deg, #373435, #0D0C0C);
+  --gradient-rosee-cardinale: linear-gradient(135deg, #F2F1F1, #FFFFFF 50%, #F7ECEC);
+  --gradient-monochrome-sang: linear-gradient(135deg, #D4151F, #6B0910);
+}
+
+/* Typography scale (charte §4.6) */
+.h1 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 1.0;
+  letter-spacing: -0.01em;
+  color: var(--color-anthracite);
+}
+
+.h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.15;
+  letter-spacing: 0;
+  color: var(--color-anthracite);
+}
+
+.h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--color-anthracite);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-anthracite);
+}
+
+.body-l {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-anthracite);
+}
+
+.body-m {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-anthracite);
+}
+
+/* Base styles */
+body {
+  background: var(--color-blanc);
+  color: var(--color-anthracite);
+  font-family: var(--font-body);
+}
+
+/* Focus visible global */
+:focus-visible {
+  outline: 2px solid var(--color-cardinal);
+  outline-offset: 3px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
