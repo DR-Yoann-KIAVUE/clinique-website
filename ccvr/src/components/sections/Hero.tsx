@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/Button";
 import { WavyLines } from "@/components/ui/WavyLines";
+import { TiltCard } from "@/components/ui/TiltCard";
 import { Container } from "@/components/layout/Container";
 import { siteConfig } from "@/content/site";
 import { ArrowRight } from "lucide-react";
@@ -36,46 +37,52 @@ export function Hero() {
         {/* Bottom — 3-column bento grid */}
         <div className="mt-12 grid grid-cols-2 gap-4 lg:mt-16 lg:grid-cols-3 lg:gap-5">
           {/* Card 1 — image */}
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-perle">
-            <img
-              src="/images/clinique.png"
-              alt="Clinique Cardiovasculaire Raphaeloise — interieur"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-          </div>
+          <TiltCard>
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-perle shadow-lg shadow-anthracite/5">
+              <img
+                src="/images/clinique.png"
+                alt="Clinique Cardiovasculaire Raphaeloise — interieur"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+          </TiltCard>
 
           {/* Card 2 — image */}
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-separateur">
-            <img
-              src="/images/consultation-website-v2.png"
-              alt="Consultation cardiologique — auscultation au stethoscope"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-          </div>
+          <TiltCard>
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-separateur shadow-lg shadow-anthracite/5">
+              <img
+                src="/images/consultation-website-v2.png"
+                alt="Consultation cardiologique — auscultation au stethoscope"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+          </TiltCard>
 
           {/* Card 3 — feature card */}
-          <div className="col-span-2 flex flex-col justify-between rounded-[var(--radius-card)] bg-teinte-chaude p-6 lg:col-span-1 lg:aspect-[4/5] lg:p-8">
-            <div>
-              <h2 className="font-display text-[22px] font-bold leading-tight text-anthracite lg:text-[26px]">
-                Prevention
-                <br />
-                Cardiovasculaire
-              </h2>
-              <p className="body-m mt-3 text-gris-moyen">
-                8 infarctus sur 10 pourraient etre evites. Notre equipe vous
-                accompagne avec des bilans de risque et un suivi personnalise.
-              </p>
+          <TiltCard className="col-span-2 lg:col-span-1">
+            <div className="flex h-full flex-col justify-between rounded-[var(--radius-card)] bg-teinte-chaude p-6 shadow-lg shadow-anthracite/5 lg:aspect-[4/5] lg:p-8">
+              <div>
+                <h2 className="font-display text-[22px] font-bold leading-tight text-anthracite lg:text-[26px]">
+                  Prevention
+                  <br />
+                  Cardiovasculaire
+                </h2>
+                <p className="body-m mt-3 text-gris-moyen">
+                  8 infarctus sur 10 pourraient etre evites. Notre equipe vous
+                  accompagne avec des bilans de risque et un suivi personnalise.
+                </p>
+              </div>
+              <div className="mt-5">
+                <a
+                  href="/prevention"
+                  className="inline-flex items-center gap-2 rounded-[var(--radius-btn)] bg-cardinal px-5 py-2.5 font-display text-[10px] font-bold uppercase tracking-[0.18em] text-blanc transition-all duration-150 hover:-translate-y-px hover:bg-rouge-profond hover:shadow-sm"
+                >
+                  En savoir plus
+                  <ArrowRight size={12} strokeWidth={1.5} />
+                </a>
+              </div>
             </div>
-            <div className="mt-5">
-              <a
-                href="/prevention"
-                className="inline-flex items-center gap-2 rounded-[var(--radius-btn)] bg-cardinal px-5 py-2.5 font-display text-[10px] font-bold uppercase tracking-[0.18em] text-blanc transition-all duration-150 hover:-translate-y-px hover:bg-rouge-profond hover:shadow-sm"
-              >
-                En savoir plus
-                <ArrowRight size={12} strokeWidth={1.5} />
-              </a>
-            </div>
-          </div>
+          </TiltCard>
         </div>
       </Container>
     </section>
