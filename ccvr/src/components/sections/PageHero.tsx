@@ -12,7 +12,7 @@ interface PageHeroProps {
 
 export function PageHero({ title, subtitle, accroche, variant = "arch", children }: PageHeroProps) {
   return (
-    <section className="relative pb-16 pt-12 lg:pt-16">
+    <section className="relative overflow-hidden pb-16 pt-12 lg:pt-16">
       <PageWavyLines variant={variant} />
 
       <Container>

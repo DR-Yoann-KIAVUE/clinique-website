@@ -1,0 +1,505 @@
+Voici le Sitemap complet de la Clinique Cardio-Vasculaire Raphaëloise, suivi du détail de chaque page.
+
+🗺️ SITEMAP COMPLET — Clinique Cardio-Vasculaire Raphaëloise
+carillon-tambourine-d49f.squarespace.com/
+│
+├── 🔵 NAVIGATION PRINCIPALE
+│   ├── Accueil                          /
+│   ├── Les Équipes                      /les-equipes
+│   ├── Les Consultations                /consultation-cardiologie
+│   ├── VO2 MAX                          /test-vo2-max-saint-raphael
+│   ├── Kinésithérapie Respiratoire      /kinesitherapie-respiratoire-frejus-saint-raphael
+│   ├── Prévention Cardiovasculaire      /prevention-cardiovasculaire
+│   │     ├── Nos actions de prévention  /prevention-cardiovasculaire
+│   │     ├── Podcast Dryk.Cardio        /podcast-drykcardio
+│   │     └── Association LUCIANI        /association-luciani
+│   └── Contact                          /contact
+│
+├── 🟡 PAGES HORS NAVIGATION (SEO / Pages cachées)
+│   ├── Nos actes / Les examens          /les-actes
+│   ├── Cardiologue à Saint-Raphaël      /cardiologue-saint-raphael
+│   ├── Cardiologue à Fréjus             /cardiologue-frejus
+│   ├── Cardiologue à Puget-sur-Argens   /cardiologue-puget-sur-argens
+│   └── Mentions légales                 (lien footer)
+│
+├── 🟠 FOOTER (présent sur toutes les pages)
+│   ├── Liens rapides (8 pages)
+│   ├── Liens géographiques (3 pages)
+│   ├── Lien Nos Actes
+│   └── Lien Prendre rendez-vous
+│
+└── 🔴 PAGES SYSTÈME
+    ├── Page 404 (page introuvable)
+    └── Boutique / Cart                  /cart
+
+
+📄 DÉTAIL PAGE PAR PAGE
+
+1. 🏠 ACCUEIL — /
+Titre : Clinique Cardio-Vasculaire Raphaëloise - Votre suivi cardiologie
+Header / Navigation
+
+Logo (symbole rouge et noir de la clinique)
+Menu navigation : Accueil · Les Équipes · Les Consultations · VO2 MAX · Kinésithérapie Respiratoire · Prévention Cardiovasculaire · Contact
+
+Section Hero (plein écran)
+
+Photo de fond : intérieur de la clinique (accueil, baies vitrées)
+Titre grand format en deux couleurs : "CLINIQUE CARDIO-VASCULAIRE RAPHAELOISE" (blanc + rouge corail)
+Sous-titre : "VOTRE SANTÉ AU COEUR DE NOTRE PRIORITÉ"
+Accroche : "Faire reculer la mortalité cardio vasculaire en redéfinissant la santé."
+Bouton CTA principal : "Prendre rendez-vous"
+
+Bandeau défilant (ticker)
+
+Texte animé répété : "CONNAISSEZ-VOUS VOTRE VO2MAX ?"
+
+Section VO2 Max (nouveauté)
+
+Titre section : "Test de VO2Max — Nouveauté au sein de la Clinique"
+Sous-titre : "Découvrir tout ce que propose la Clinique Cardio-Vasculaire Raphaëloise"
+Texte descriptif : présentation du test VO2Max, surveillance médicale, bilan fonctionnel, longévité
+Bouton : "En savoir plus"
+Visuel associé
+
+Section Services / Prestations
+
+Mise en avant des grandes catégories de soins proposés par la clinique
+
+Section Équipe
+
+Présentation rapide de l'équipe médicale avec photos et fonctions
+
+Section Prévention / Chiffres clés
+
+Données choc sur les maladies cardiovasculaires
+Positionnement de la clinique sur la prévention
+
+Section Avis patients
+
+Note ⭐⭐⭐⭐⭐ — 511 avis
+Témoignages de patients
+
+Section Localisation / Accès
+
+Adresse : Pôle Epsilon 3, Bâtiment B, 2ème étage, 87 Avenue Archimède, 83700 Saint-Raphaël
+Bouton itinéraire
+
+Footer
+
+Bloc Contact (infos + téléphone)
+Plan du site avec 8 liens de navigation + 3 liens géographiques + Nos Actes
+Lien "Prendre rendez-vous"
+Lien "Mentions légales"
+Copyright : © 2024 Dr Yoann Kiavué
+
+
+2. 👥 LES ÉQUIPES — /les-equipes
+Titre : Clinique Cardio-Vasculaire Raphaëloise - Une équipe dédiée à votre santé
+Section Hero
+
+Bandeau défilant animé : "LES ÉQUIPES" répété en boucle
+Titre principal : "LES ÉQUIPES"
+Accroche : "Nous croyons que notre équipe est notre atout le plus précieux. Chaque jour, avec bonne humeur et bienveillance, nous mettons tout en œuvre pour offrir à nos patients un accompagnement humain et de qualité."
+
+Section Équipe Médicale — Cardiologues
+Dr Yoann KIAVUÉ
+
+Titre : Fondateur de la clinique et Cardiologue
+Photo individuelle
+Bouton CTA : "JE PRENDS RENDEZ-VOUS"
+
+Dr Sergio CERASO
+
+Titre : Cardiologue
+Photo individuelle
+Bouton CTA : "JE PRENDS RENDEZ-VOUS"
+
+Section Kinésithérapie
+Julie FRACHETTE
+
+Titre : Kinésithérapeute, spécialisée en kinésithérapie respiratoire
+Photo individuelle
+Bouton CTA : "JE PRENDS RENDEZ-VOUS"
+
+Section Infirmières spécialisées
+Amandine JOURDAIN
+
+Titre : Infirmière spécialisée en cardiologie et Responsable des programmes d'accompagnement patient
+Photo individuelle
+Bouton CTA : "JE PRENDS RENDEZ-VOUS"
+
+Allison LEROUX
+
+Titre : Infirmière spécialisée en cardiologie
+Photo individuelle
+Bouton CTA : "JE PRENDS RENDEZ-VOUS"
+
+Section Secrétariat
+Jade NADEAU
+
+Titre : Assistante Médicale
+Présentation du rôle administratif
+
+Footer (identique à toutes les pages)
+
+3. 🫀 LES CONSULTATIONS — /consultation-cardiologie
+Titre : Clinique Cardio-Vasculaire Raphaëloise - Examens et soins en cardiologie
+Section Hero
+
+Bandeau défilant : "CONSULTATIONS CARDIOLOGIE"
+Titre principal : "CONSULTATIONS CARDIOLOGIE"
+Texte d'accroche : positionnement géographique (Saint-Raphaël, Fréjus, Var), spécialisation exclusive en maladies cardiovasculaires, équipe de cardiologues et infirmières spécialisées
+Objectif affiché : consultation de qualité, fondée sur l'écoute, la bienveillance et l'expertise médicale
+Précision : pas d'actes techniques ni d'hospitalisation — uniquement consultation cardiologique
+
+Section Contenu Principal
+
+Présentation complète des consultations disponibles
+Explication de la démarche de prise en charge globale
+Texte SEO structuré autour de mots-clés géographiques (Saint-Raphaël, Fréjus, Var)
+
+Section Types de consultations / Actes
+
+Liste des examens proposés (electrocardiogramme, échographie, etc.)
+
+Boutons CTA
+
+Prise de rendez-vous (Doctolib ou formulaire)
+
+Footer
+
+4. 🏃 VO2 MAX — /test-vo2-max-saint-raphael
+Titre : Test VO2max - Saint-Raphaël | Clinique Cardio-Vasculaire Raphaëloise
+Section Hero
+
+Bandeau défilant animé : "TEST DE VO2MAX"
+Titre : "TEST DE VO2MAX"
+Sous-titre : "Test VO2max à Saint-Raphaël — Base de la longévité et bilan cardiorespiratoire à l'effort"
+
+Section Définition
+
+Titre : "Qu'est-ce que le test VO2max ?"
+Explication : gold standard de l'évaluation cardiorespiratoire à l'effort, mesure de la consommation maximale d'oxygène, réalisé à la clinique, mesure en temps réel des échanges gazeux + fréquence cardiaque + tolérance à l'exercice
+Bouton CTA : "JE FAIS MON TEST DE VO2MAX"
+
+Section Science & Longévité
+
+Titre : "VO2max et longévité : ce que dit la science"
+Données scientifiques sur le VO2max comme marqueur de longévité (au-delà de la performance sportive)
+Lien avec prévention cardiovasculaire
+
+Section Déroulement du Test
+
+Protocole pas à pas
+Surveillance médicale
+Résultats et interprétation
+
+Section Pour qui ?
+
+Profils de patients concernés (sportifs, patients cardiaques, prévention générale)
+
+Section Tarifs / Prise en charge
+Boutons CTA multiples
+
+"JE FAIS MON TEST DE VO2MAX"
+
+Footer
+
+5. 🫁 KINÉSITHÉRAPIE RESPIRATOIRE — /kinesitherapie-respiratoire-frejus-saint-raphael
+Titre : Kiné respiratoire Saint Raphaël – Julie Frachette | Kiné Respiratoire Expert
+Section Hero
+
+Bandeau défilant : "KINESITHÉRAPIE RESPIRATOIRE"
+Titre : "KINESITHÉRAPIE RESPIRATOIRE"
+Sous-titre : "Kinésithérapie respiratoire à la Clinique Cardio Vasculaire Raphaëloise : Respirez mieux, vivez mieux"
+
+Section Introduction
+
+Titre : "Un accompagnement expert pour vos poumons"
+Présentation de la spécialité : maladies pulmonaires chroniques, infections respiratoires, réhabilitation post-COVID, post-chirurgicale
+Praticienne : Julie Frachette, kinésithérapeute diplômée, spécialisée en réhabilitation respiratoire
+
+Section Pourquoi consulter ?
+
+Titre : "Pourquoi consulter en kinésithérapie respiratoire ?"
+Pathologies ciblées : BPCO, asthme, bronchite chronique, séquelles COVID, etc.
+
+Section Techniques / Soins
+
+Présentation des techniques utilisées
+Réhabilitation respiratoire
+Drainage bronchique
+
+Section Prise en charge / RDV
+
+Bouton vers prise de rendez-vous avec Julie Frachette
+
+Section Témoignages / Avis
+Footer
+
+6. 💚 PRÉVENTION CARDIOVASCULAIRE — /prevention-cardiovasculaire
+Titre : Formations & Prévention Cardio-Vasculaire
+Section Hero
+
+Bandeau défilant animé : "Prévention" répété
+Titre : "Prévention"
+Sous-titre : "Prévention cardiovasculaire : ce que propose notre clinique"
+Accroche forte : "Anticipez aujourd'hui pour protéger votre cœur demain."
+
+Section Chiffre Choc
+
+Statistique : "Les maladies cardiovasculaires restent la première cause de mortalité dans le monde. Pourtant, 8 infarctus sur 10 pourraient être évités grâce à une prévention active."
+Positionnement clinique : prévention cardiovasculaire comme priorité de santé publique
+Bouton : "Découvrez notre approche globale"
+
+Section Pourquoi la prévention est essentielle
+
+Titre : "Pourquoi la prévention cardiovasculaire est essentielle ?"
+Argumentaire : vie plus longue, plus active, plus sereine
+Détail des facteurs de risque
+
+Section Actions de prévention
+
+Présentation des actions concrètes proposées par la clinique
+Liens vers Podcast Dryk.Cardio
+Liens vers Association LUCIANI
+
+Sous-sections accessibles depuis ce menu
+
+Nos actions de prévention
+Podcast Dryk.Cardio
+Association LUCIANI
+
+Footer
+
+7. 🎙️ PODCAST DRYK.CARDIO — /podcast-drykcardio
+Titre : Podcast Dryk.Cardio
+Section Hero
+
+Bandeau défilant : "PODCAST DRYK.CARDIO"
+Titre : "PODCAST DRYK.CARDIO"
+Sous-titre : "🎧 Dryk Cardio — Le podcast qui prend soin de votre cœur"
+Accroche : "Votre rendez-vous audio pour comprendre, prévenir et protéger votre cœur."
+
+Section Présentation
+
+Titre : "Le podcast de prévention cardiovasculaire à écouter partout, à tout moment"
+Créateur : Dr KIAVUE Yoann
+Mission : rendre accessibles les enjeux de santé du cœur, sans jargon, sans culpabilisation
+Format : conseils pratiques et information claire
+Bouton CTA : "J'ÉCOUTE DRYK.CARDIO"
+
+Section Plateformes disponibles
+
+Spotify
+Deezer
+Apple Podcast
+Amazon Music
+Icônes/logos de chaque plateforme
+
+Section Épisodes
+
+Liste des épisodes disponibles (avec titres, durées, descriptions courtes)
+Lecteur audio intégré (ou lien vers plateforme)
+
+Footer
+
+8. 🤝 ASSOCIATION LUCIANI — /association-luciani
+Titre : Association LUCIANI
+Section Hero
+
+Bandeau défilant : "ASSOCIATION LUCIANI"
+Titre : "ASSOCIATION LUCIANI"
+Sous-titre : "Informez & Formez-vous"
+
+Section Présentation
+
+Fondateur : Dr KIAVUE Yoann, cardiologue engagé dans la santé publique
+Mission : "prévenir, accompagner et former"
+
+Section Axe 1 — Sport & Santé 🏃
+
+Description : cours de sport encadrés par des professionnels (kinés, coachs APA, coachs diplômés)
+Proposés à bas prix
+Objectif : reprendre une activité physique adaptée en toute sécurité
+Continuité du programme de réadaptation cardiaque
+
+Section Axe 2 — Club Prévention 💬
+
+Description : espace d'information simple et fiable
+Contenu : conseils de santé, actualités médicales, actions concrètes
+Fréquence et format de diffusion
+
+Section Adhésion / Rejoindre l'association
+
+Modalités d'adhésion
+Bouton CTA (rejoindre / soutenir)
+
+Footer
+
+9. 📞 CONTACT — /contact
+Titre : Contact & Rendez-vous - Suivi Cardio-Vasculaire
+Section Hero
+
+Bandeau défilant : "CONTACT"
+Titre : "CONTACT"
+Accroche : "Une question, contactez-nous !"
+
+Section Coordonnées
+
+Catégorie : SECRETARIAT
+Téléphone : 07 83 46 83 37
+Adresse complète :
+
+Clinique Cardio-Vasculaire Raphaëloise
+Pôle Epsilon 3, Pôle médical
+87 Avenue Archimède, Bâtiment B, 2ème étage
+83700 Saint-Raphaël
+
+
+
+Éléments présumés (page simple, épurée)
+
+Formulaire de contact éventuel
+Bouton "Prendre rendez-vous" vers Doctolib
+Carte / carte intégrée Google Maps
+
+Footer complet
+
+10. 🔬 NOS ACTES / EXAMENS — /les-actes
+Titre : Nos examens cardiaques — Clinique Cardio-Vasculaire Raphaëloise
+(Page hors navigation principale — accessible via footer et liens internes)
+Section Hero
+
+Titre : "Clinique Cardio-Vasculaire Raphaëloise"
+Accroche : "Nous proposons une gamme complète d'examens, tels que l'électrocardiogramme et l'échographie cardiaque, avec une priorité sur la prévention"
+Attribution : Dr Yoann Kiavué - Cardiologue
+Bouton CTA : "Prendre rendez-vous"
+Bloc social proof : ⭐⭐⭐⭐⭐ 511 avis
+
+Section Liste des Actes
+Chaque acte est présenté avec un lien ">" :
+
+Électrocardiogramme
+Échographie cardiaque
+Échographie des troncs supra aortiques
+Électrocardiographie
+Échographie d'effort
+Épreuve d'effort
+Contrôle pacemaker
+Contrôle défibrillateur
+Polygraphie respiratoire nocturne
+Mesure ambulatoire de la tension artérielle
+
+Section Texte SEO
+
+Description de la clinique, de sa localisation à Saint-Raphaël, du fondateur Dr Kiavué
+Présentation des services de prévention, diagnostic, suivi
+
+Footer
+
+11. 📍 CARDIOLOGUE À SAINT-RAPHAËL — /cardiologue-saint-raphael
+Titre : Cardiologue — Clinique Cardio-Vasculaire à Saint Raphaël
+(Page SEO locale — hors navigation principale)
+Section Hero
+
+Titre : "Clinique Cardio-Vasculaire Raphaëloise"
+Accroche : examen complet (ECG, échographie), priorité prévention
+Attribution : Dr Yoann Kiavué - Cardiologue
+Bouton : "Prendre rendez-vous"
+Note : ⭐⭐⭐⭐⭐ 511 avis
+
+Bloc Localisation
+
+Titre : "Rendez-nous visite !"
+Adresse cliquable : 87 Avenue Archimède (lien itinéraire)
+Pôle Epsilon 3, Bâtiment B, 2ème étage, 83700 Saint-Raphaël
+
+Section Contenu SEO local — 4 blocs
+
+"Des Services de Cardiologie Avancés"
+"Expertise et Suivi Personnalisé"
+"Prendre rendez-vous sur Doctolib"
+"Un Engagement pour la Prévention"
+
+Texte SEO
+
+Présentation de la clinique comme centre d'excellence à Saint-Raphaël, sous direction Dr Kiavué
+
+Footer
+
+12. 📍 CARDIOLOGUE À FRÉJUS — /cardiologue-frejus
+Titre : Cardiologue — Clinique Cardio-Vasculaire — Venir depuis Fréjus
+(Page SEO locale — hors navigation principale)
+Section Hero (même structure)
+
+Titre bloc géo : "Cardiologue à Fréjus"
+Note : ⭐⭐⭐⭐⭐ 511 avis
+Bouton : "Prendre rendez-vous"
+
+Bloc Localisation
+
+Même adresse Saint-Raphaël (lien itinéraire depuis Fréjus)
+
+Section Contenu SEO local — 5 blocs
+
+"Expertise en Cardiologie à Fréjus"
+"Services de Télé Expertise et Télésurveillance"
+"Approche Globale et Conseils Personnalisés"
+"Simplifiez vos Rendez-Vous grâce à Doctolib"
+"Un Engagement Continu pour la Prévention"
+
+Texte SEO
+
+Positionnement de la clinique comme centre d'excellence idéalement situé pour les patients de Fréjus
+
+Footer
+
+13. 📍 CARDIOLOGUE À PUGET-SUR-ARGENS — /cardiologue-puget-sur-argens
+Titre : Clinique Cardio-Vasculaire — Venir depuis Puget-Sur-Argens
+(Page SEO locale — hors navigation principale)
+Section Hero
+
+Titre bloc géo : "Cardiologue à Puget sur Argens"
+Note : ⭐⭐⭐⭐⭐ 511 avis
+Bouton : "Prendre rendez-vous"
+
+Bloc Localisation
+
+Même adresse Saint-Raphaël (lien itinéraire depuis Puget-sur-Argens)
+
+Section Contenu SEO local — 4 blocs
+
+"Des Services de Cardiologie Avancés"
+"Expertise et Suivi Personnalisé"
+"Prendre rendez-vous sur Doctolib"
+"Un Engagement pour la Prévention"
+
+Texte SEO
+
+Présentation de la clinique accessible depuis Puget-sur-Argens
+
+Footer
+
+
+🗂️ ÉLÉMENTS GLOBAUX (présents sur toutes les pages)
+HEADER (en-tête commun)
+
+Logo de la clinique (icône rouge/noir + nom)
+Menu de navigation principal (7 items dont 1 déroulant)
+Icône panier (boutique)
+
+FOOTER (pied de page commun)
+
+Bloc titre : "CONTACT — Contactez-nous pour un suivi personnalisé et une prise en charge cardiovasculaire de qualité."
+Plan du site : Accueil · Les équipes · Consultations Cardiologique · Kinésithérapie Respiratoire · Prévention Cardiologie · Association Luciani · Podcast Dryk.Cardio · Contact
+Liens géographiques : Venir à Saint Raphaël · Venir depuis Fréjus · Venir depuis Puget Sur Argens
+Lien Nos Actes
+Adresse : Pôle Epsilon III, 87 Avenue Archimède, Bâtiment B, 2ème étage, 83700 Saint-Raphaël
+Lien "Prendre rendez-vous"
+Lien "Mentions légales"
+Copyright : © 2024 Dr Yoann Kiavué
+
+
+Résumé structurel : Le site compte 13 pages actives — 8 dans la navigation principale (dont 3 sous un sous-menu "Prévention Cardiovasculaire") + 3 pages SEO locales + 1 page "Nos Actes" + 1 page Contact simple — le tout articulé autour d'une stratégie de référencement local fort (Saint-Raphaël, Fréjus, Puget-sur-Argens) et d'un positionnement premium en cardiologie et prévention cardiovasculaire.

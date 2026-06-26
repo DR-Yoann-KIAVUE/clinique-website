@@ -40,10 +40,21 @@ export function Hero() {
           <TiltCard>
             <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-perle shadow-lg shadow-anthracite/5">
               <img
-                src="/images/clinique.png"
-                alt="Clinique Cardiovasculaire Raphaeloise — interieur"
+                src="/images/vo2max-2.png"
+                alt="Test VO2max a la Clinique Cardiovasculaire Raphaeloise"
                 className="absolute inset-0 h-full w-full object-cover"
               />
+              <div
+                className="absolute inset-0 flex items-end justify-center pb-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                style={{ transform: "translateZ(40px)" }}
+              >
+                <a
+                  href="/vo2max"
+                  className="rounded-full bg-blanc/90 px-5 py-2.5 font-display text-[10px] font-bold uppercase tracking-[0.18em] text-anthracite shadow-lg backdrop-blur-sm transition-all hover:bg-blanc"
+                >
+                  Test VO2max
+                </a>
+              </div>
             </div>
           </TiltCard>
 
@@ -55,6 +66,17 @@ export function Hero() {
                 alt="Consultation cardiologique — auscultation au stethoscope"
                 className="absolute inset-0 h-full w-full object-cover"
               />
+              <div
+                className="absolute inset-0 flex items-end justify-center pb-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                style={{ transform: "translateZ(40px)" }}
+              >
+                <a
+                  href="/consultations"
+                  className="rounded-full bg-blanc/90 px-5 py-2.5 font-display text-[10px] font-bold uppercase tracking-[0.18em] text-anthracite shadow-lg backdrop-blur-sm transition-all hover:bg-blanc"
+                >
+                  Consultations
+                </a>
+              </div>
             </div>
           </TiltCard>
 

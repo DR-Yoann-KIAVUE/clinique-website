@@ -9,7 +9,6 @@ import {
   HeartPulse,
   TrendingUp,
   Users,
-  Timer,
   ClipboardList,
 } from "lucide-react";
 
@@ -192,27 +191,6 @@ export default function Vo2maxPage() {
         </Container>
       </section>
 
-      {/* Tarifs / CTA */}
-      <section className="bg-cardinal py-12">
-        <Container>
-          <div className="flex flex-col items-center gap-6 text-center">
-            <Timer size={32} strokeWidth={1.2} className="text-blanc/60" />
-            <h2 className="font-display text-[28px] font-bold text-blanc">
-              Pret a connaitre votre VO2max ?
-            </h2>
-            <p className="body-l text-blanc/80">
-              Contactez-nous pour connaitre les tarifs et planifier votre test.
-            </p>
-            <Button
-              variant="outline-white"
-              href={siteConfig.rdvUrl}
-            >
-              Je fais mon test de VO2max
-              <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-            </Button>
-          </div>
-        </Container>
-      </section>
     </>
   );
 }

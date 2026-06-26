@@ -13,40 +13,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/equipe" },
 };
 
-function TeamCategory({
-  title,
-  members,
-}: {
-  title: string;
-  members: ReadonlyArray<{
-    name: string;
-    title: string;
-    description: string;
-    image: string;
-  }>;
-}) {
-  return (
-    <div>
-      <h2 className="h2 mb-8">{title}</h2>
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {members.map((member) => (
-          <div key={member.name} className="flex flex-col gap-4">
-            <DoctorCard
-              name={member.name}
-              title={member.title}
-              description={member.description}
-              image={member.image}
-            />
-            <Button href={siteConfig.rdvUrl} size="sm" className="w-full">
-              Je prends rendez-vous
-              <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-            </Button>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
+const otherMembers = [
+  ...teamMembers.kinesitherapeutes,
+  ...teamMembers.infirmieres,
+  ...teamMembers.secretariat,
+];
 
 export default function EquipePage() {
   return (
@@ -60,22 +31,42 @@ export default function EquipePage() {
       <section className="pb-16 lg:pb-24">
         <Container>
           <div className="flex flex-col gap-16">
-            <TeamCategory
-              title="Equipe Medicale — Cardiologues"
-              members={teamMembers.cardiologues}
-            />
-            <TeamCategory
-              title="Kinesitherapie"
-              members={teamMembers.kinesitherapeutes}
-            />
-            <TeamCategory
-              title="Infirmieres specialisees"
-              members={teamMembers.infirmieres}
-            />
-            <TeamCategory
-              title="Secretariat"
-              members={teamMembers.secretariat}
-            />
+            {/* Cardiologues — 2 colonnes */}
+            <div>
+              <h2 className="h2 mb-8">Equipe Medicale — Cardiologues</h2>
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {teamMembers.cardiologues.map((member) => (
+                  <div key={member.name} className="flex flex-col gap-4">
+                    <DoctorCard
+                      name={member.name}
+                      title={member.title}
+                      description={member.description}
+                      image={member.image}
+                    />
+                    <Button href={siteConfig.rdvUrl} size="sm" className="w-full">
+                      Je prends rendez-vous
+                      <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
+                    </Button>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Reste de l'equipe — 3 colonnes */}
+            <div>
+              <h2 className="h2 mb-8">L&apos;equipe au complet</h2>
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {otherMembers.map((member) => (
+                  <DoctorCard
+                    key={member.name}
+                    name={member.name}
+                    title={member.title}
+                    description={member.description}
+                    image={member.image}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
         </Container>
       </section>

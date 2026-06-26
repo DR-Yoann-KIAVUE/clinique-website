@@ -38,7 +38,7 @@ export function TiltCard({ children, className }: TiltCardProps) {
       ref={cardRef}
       onMouseMove={handleMove}
       onMouseLeave={handleLeave}
-      className={cn("transition-transform duration-200 ease-out will-change-transform", className)}
+      className={cn("group transition-transform duration-200 ease-out will-change-transform", className)}
       style={{ transformStyle: "preserve-3d" }}
     >
       {children}

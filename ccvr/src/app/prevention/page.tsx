@@ -189,26 +189,6 @@ export default function PreventionPage() {
         </Container>
       </section>
 
-      {/* CTA */}
-      <section className="bg-cardinal py-12">
-        <Container>
-          <div className="flex flex-col items-center gap-6 text-center">
-            <h2 className="font-display text-[28px] font-bold text-blanc">
-              Faites un bilan de prevention
-            </h2>
-            <p className="body-l text-blanc/80">
-              Prenez rendez-vous pour un bilan cardiovasculaire complet.
-            </p>
-            <Button
-              variant="outline-white"
-              href={siteConfig.rdvUrl}
-            >
-              Prendre rendez-vous
-              <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-            </Button>
-          </div>
-        </Container>
-      </section>
     </>
   );
 }

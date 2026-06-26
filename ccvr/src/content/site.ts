@@ -232,7 +232,7 @@ export const teamMembers = {
         "Infirmiere specialisee en cardiologie et Responsable des programmes d'accompagnement patient",
       description:
         "Infirmiere specialisee, Amandine coordonne les programmes d'accompagnement patient et veille a la qualite de la prise en charge tout au long du parcours de soins.",
-      image: "/images/placeholder-doctor.jpg",
+      image: "/images/amandine.png",
     },
   ],
   secretariat: [
@@ -241,7 +241,7 @@ export const teamMembers = {
       title: "Assistante Medicale",
       description:
         "Premier point de contact de la clinique, Jade accueille les patients, gere les rendez-vous et assure la coordination administrative avec l'equipe medicale.",
-      image: "/images/placeholder-doctor.jpg",
+      image: "/images/Jade.png",
     },
   ],
 } as const;
