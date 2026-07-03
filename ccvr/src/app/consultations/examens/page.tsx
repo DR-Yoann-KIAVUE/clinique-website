@@ -4,7 +4,7 @@ import { PageHero } from "@/components/sections/PageHero";
 import { Button } from "@/components/ui/Button";
 import { Stars } from "@/components/ui/Stars";
 import { examens, siteConfig } from "@/content/site";
-import { ArrowRight, ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Nos examens cardiaques",
@@ -38,31 +38,30 @@ export default function ExamensPage() {
         </div>
       </PageHero>
 
-      {/* Liste des actes */}
+      {/* Scroll stack des actes */}
       <section className="pb-16 lg:pb-24">
         <Container>
-          <div className="mx-auto max-w-3xl">
-            <h2 className="h2 mb-8 text-center">Nos actes</h2>
-            <div className="flex flex-col divide-y divide-separateur rounded-[var(--radius-card)] border border-separateur bg-blanc">
-              {examens.map((examen) => (
-                <details
-                  key={examen.title}
-                  className="group"
-                >
-                  <summary className="flex cursor-pointer items-center justify-between px-6 py-5 transition-colors hover:bg-perle">
-                    <span className="h3">{examen.title}</span>
-                    <ChevronRight
-                      size={18}
-                      strokeWidth={1.2}
-                      className="shrink-0 text-cardinal transition-transform group-open:rotate-90"
-                    />
-                  </summary>
-                  <div className="px-6 pb-5">
-                    <p className="body-m text-gris-moyen">{examen.description}</p>
+          <h2 className="h2 mb-10 text-center">Nos actes</h2>
+          <div className="mx-auto max-w-3xl space-y-4">
+            {examens.map((examen, i) => (
+              <div
+                key={examen.title}
+                className="sticky rounded-[var(--radius-card)] border border-separateur bg-blanc p-6 shadow-sm transition-shadow hover:shadow-md lg:p-8"
+                style={{ top: `${80 + i * 8}px` }}
+              >
+                <div className="flex items-start gap-4">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-teinte-chaude font-display text-sm font-bold text-cardinal">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div>
+                    <h3 className="h3">{examen.title}</h3>
+                    <p className="body-m mt-2 text-gris-moyen">
+                      {examen.description}
+                    </p>
                   </div>
-                </details>
-              ))}
-            </div>
+                </div>
+              </div>
+            ))}
           </div>
         </Container>
       </section>
