@@ -24,7 +24,10 @@ export const siteConfig = {
       closes: "18:30",
     },
   ],
-  rdvUrl: "#",
+  rdvUrl: "https://www.doctolib.fr/maison-de-sante/saint-raphael/clinique-cardio-vasculaire-raphaeloise/booking/new-patient?specialityId=16&speciality_ids%5B%5D=16&source=deep_link",
+  rdvCardioUrl: "https://www.doctolib.fr/cardiologue/saint-raphael/yoann-kiavue-saint-raphael/booking/new-patient?specialityId=16&profile_skipped=true&source=external_referral",
+  rdvCerasoUrl: "https://www.doctolib.fr/cardiologue/lyon/sergio-ceraso/booking/new-patient?telehealth=false&specialityId=16&pid=practice-182140&speciality_ids%5B%5D=16&source=deep_link",
+  rdvKineUrl: "https://www.doctolib.fr/masseur-kinesitherapeute/saint-raphael/julie-frachette/booking/new-patient?specialityId=9&profile_skipped=true&source=external_referral",
   reviewCount: 511,
   reviewRating: 5,
 } as const;
@@ -242,6 +245,13 @@ export const teamMembers = {
       description:
         "Premier point de contact de la clinique, Jade accueille les patients, gere les rendez-vous et assure la coordination administrative avec l'equipe medicale.",
       image: "/images/Jade.png",
+    },
+    {
+      name: "Laura Audoly",
+      title: "Assistante Medicale",
+      description:
+        "Laura accompagne les patients dans leur parcours administratif et contribue au bon fonctionnement quotidien de la clinique avec rigueur et bienveillance.",
+      image: "/images/laura-audoly.png",
     },
   ],
 } as const;

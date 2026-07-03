@@ -78,9 +78,11 @@ export default function AssociationLucianiPage() {
               </div>
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-card)] bg-separateur">
-              <div className="absolute inset-0 flex items-center justify-center text-gris-moyen">
-                <span className="body-m">Photo seances sport LUCIANI</span>
-              </div>
+              <img
+                src="/images/sport-sante.jpg"
+                alt="Seances de sport adapte avec l'Association LUCIANI"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
           </div>
         </Container>
@@ -92,9 +94,11 @@ export default function AssociationLucianiPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="order-2 lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-card)] bg-separateur">
-                <div className="absolute inset-0 flex items-center justify-center text-gris-moyen">
-                  <span className="body-m">Photo Club Prevention</span>
-                </div>
+                <img
+                  src="/images/prevention-club.jpg"
+                  alt="Club Prevention de l'Association LUCIANI"
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
               </div>
             </div>
             <div className="order-1 lg:order-2">
@@ -142,7 +146,7 @@ export default function AssociationLucianiPage() {
             </p>
             <Button
               variant="outline-white"
-              href="#"
+              href="https://www.association-luciani.fr/"
             >
               Rejoindre l&apos;association
               <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />

@@ -21,7 +21,7 @@ export default function ConsultationsPage() {
         subtitle="La Clinique Cardiovasculaire Raphaeloise, situee a Saint-Raphael et facilement accessible depuis Frejus et l'ensemble du Var, est exclusivement specialisee en maladies cardiovasculaires. Notre equipe de cardiologues et d'infirmieres specialisees vous accueille pour des consultations de qualite, fondees sur l'ecoute, la bienveillance et l'expertise medicale."
         accroche="Consultations cardiologiques uniquement — pas d'actes techniques ni d'hospitalisation."
       >
-        <Button href={siteConfig.rdvUrl}>
+        <Button href={siteConfig.rdvCardioUrl}>
           Prendre rendez-vous
           <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
         </Button>

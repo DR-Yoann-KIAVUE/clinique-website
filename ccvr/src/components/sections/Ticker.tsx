@@ -2,15 +2,26 @@
 
 import { cn } from "@/lib/utils";
 
-const text = "CONNAISSEZ-VOUS VOTRE VO2MAX ?";
+const questions = [
+  "Connaissez-vous votre VO2max ?",
+  "Avez-vous fait un bilan cardiaque cette annee ?",
+  "Savez-vous si votre coeur est adapte a votre sport ?",
+  "Connaissez-vous vos facteurs de risque cardiovasculaire ?",
+  "Votre tension arterielle est-elle dans les normes ?",
+  "Combien de pas faites-vous par jour ?",
+  "Dormez-vous suffisamment pour proteger votre coeur ?",
+  "Un de vos proches a-t-il eu un accident cardiaque avant 60 ans ?",
+  "Savez-vous que 8 infarctus sur 10 pourraient etre evites ?",
+  "Quel age a votre coeur ?",
+];
 
 export function Ticker() {
-  const items = Array.from({ length: 12 }, (_, i) => (
+  const items = questions.map((q, i) => (
     <span
       key={i}
       className="shrink-0 flex items-center gap-12 font-display text-xs font-medium uppercase tracking-[0.15em] text-cardinal/50"
     >
-      {text}
+      {q}
       <span aria-hidden="true">&bull;</span>
     </span>
   ));
@@ -20,7 +31,7 @@ export function Ticker() {
       <div
         className={cn(
           "flex w-max gap-12",
-          "motion-safe:animate-[ticker_25s_linear_infinite]"
+          "motion-safe:animate-[ticker_60s_linear_infinite]"
         )}
       >
         {items}

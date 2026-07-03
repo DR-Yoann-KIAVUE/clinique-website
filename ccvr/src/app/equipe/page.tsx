@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/equipe" },
 };
 
+const rdvByName: Record<string, string | undefined> = {
+  "Julie Frachette": siteConfig.rdvKineUrl,
+  "Amandine Jourdain": siteConfig.rdvCardioUrl,
+};
+
 const otherMembers = [
   ...teamMembers.kinesitherapeutes,
   ...teamMembers.infirmieres,
@@ -35,20 +40,25 @@ export default function EquipePage() {
             <div>
               <h2 className="h2 mb-8">Equipe Medicale — Cardiologues</h2>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                {teamMembers.cardiologues.map((member) => (
-                  <div key={member.name} className="flex flex-col gap-4">
-                    <DoctorCard
-                      name={member.name}
-                      title={member.title}
-                      description={member.description}
-                      image={member.image}
-                    />
-                    <Button href={siteConfig.rdvUrl} size="sm" className="w-full">
-                      Je prends rendez-vous
-                      <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-                    </Button>
-                  </div>
-                ))}
+                {teamMembers.cardiologues.map((member) => {
+                  const rdvHref = member.name === "Dr Sergio Ceraso"
+                    ? siteConfig.rdvCerasoUrl
+                    : siteConfig.rdvCardioUrl;
+                  return (
+                    <div key={member.name} className="flex flex-col gap-4">
+                      <DoctorCard
+                        name={member.name}
+                        title={member.title}
+                        description={member.description}
+                        image={member.image}
+                      />
+                      <Button href={rdvHref} size="sm" className="w-full">
+                        Je prends rendez-vous
+                        <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
+                      </Button>
+                    </div>
+                  );
+                })}
               </div>
             </div>
 
@@ -56,15 +66,25 @@ export default function EquipePage() {
             <div>
               <h2 className="h2 mb-8">L&apos;equipe au complet</h2>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                {otherMembers.map((member) => (
-                  <DoctorCard
-                    key={member.name}
-                    name={member.name}
-                    title={member.title}
-                    description={member.description}
-                    image={member.image}
-                  />
-                ))}
+                {otherMembers.map((member) => {
+                  const rdvHref = rdvByName[member.name];
+                  return (
+                    <div key={member.name} className="flex flex-col gap-4">
+                      <DoctorCard
+                        name={member.name}
+                        title={member.title}
+                        description={member.description}
+                        image={member.image}
+                      />
+                      {rdvHref && (
+                        <Button href={rdvHref} size="sm" className="w-full">
+                          Je prends rendez-vous
+                          <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
+                        </Button>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

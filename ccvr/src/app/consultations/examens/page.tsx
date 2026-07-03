@@ -25,7 +25,7 @@ export default function ExamensPage() {
           <p className="body-m text-gris-moyen">
             Dr Yoann Kiavue — Cardiologue
           </p>
-          <Button href={siteConfig.rdvUrl}>
+          <Button href={siteConfig.rdvCardioUrl}>
             Prendre rendez-vous
             <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
           </Button>
@@ -90,7 +90,7 @@ export default function ExamensPage() {
               </p>
             </div>
             <div className="mt-8">
-              <Button href={siteConfig.rdvUrl}>
+              <Button href={siteConfig.rdvCardioUrl}>
                 Prendre rendez-vous
                 <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
               </Button>

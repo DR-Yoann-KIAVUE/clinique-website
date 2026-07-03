@@ -45,12 +45,12 @@ export function Hero() {
                 className="absolute inset-0 h-full w-full object-cover"
               />
               <div
-                className="absolute inset-0 flex items-end justify-center pb-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                 style={{ transform: "translateZ(40px)" }}
               >
                 <a
                   href="/vo2max"
-                  className="rounded-full bg-blanc/90 px-5 py-2.5 font-display text-[10px] font-bold uppercase tracking-[0.18em] text-anthracite shadow-lg backdrop-blur-sm transition-all hover:bg-blanc"
+                  className="rounded-full bg-blanc/90 px-7 py-3.5 font-display text-sm font-bold uppercase tracking-[0.14em] text-anthracite shadow-lg backdrop-blur-sm transition-all hover:bg-blanc hover:scale-105"
                 >
                   Test VO2max
                 </a>
@@ -67,12 +67,12 @@ export function Hero() {
                 className="absolute inset-0 h-full w-full object-cover"
               />
               <div
-                className="absolute inset-0 flex items-end justify-center pb-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                 style={{ transform: "translateZ(40px)" }}
               >
                 <a
                   href="/consultations"
-                  className="rounded-full bg-blanc/90 px-5 py-2.5 font-display text-[10px] font-bold uppercase tracking-[0.18em] text-anthracite shadow-lg backdrop-blur-sm transition-all hover:bg-blanc"
+                  className="rounded-full bg-blanc/90 px-7 py-3.5 font-display text-sm font-bold uppercase tracking-[0.14em] text-anthracite shadow-lg backdrop-blur-sm transition-all hover:bg-blanc hover:scale-105"
                 >
                   Consultations
                 </a>

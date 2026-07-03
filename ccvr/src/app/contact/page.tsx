@@ -3,6 +3,7 @@ import { Container } from "@/components/layout/Container";
 import { PageHero } from "@/components/sections/PageHero";
 import { Button } from "@/components/ui/Button";
 import { siteConfig } from "@/content/site";
+import { ContactForm } from "@/components/ContactForm";
 import { Phone, MapPin, Clock, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -126,99 +127,7 @@ export default function ContactPage() {
               delais.
             </p>
 
-            <form className="flex flex-col gap-4">
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div>
-                  <label
-                    htmlFor="nom"
-                    className="mb-1 block text-[9.5px] font-semibold uppercase tracking-[0.08em] text-anthracite"
-                  >
-                    Nom <span className="text-cardinal">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="nom"
-                    name="nom"
-                    required
-                    className="w-full rounded-[var(--radius-btn)] border-[1.5px] border-separateur bg-blanc px-4 py-3 text-sm text-anthracite transition-all focus:border-anthracite focus:shadow-[0_0_0_3px_rgba(177,18,27,0.1)] focus:outline-none"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="prenom"
-                    className="mb-1 block text-[9.5px] font-semibold uppercase tracking-[0.08em] text-anthracite"
-                  >
-                    Prenom <span className="text-cardinal">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="prenom"
-                    name="prenom"
-                    required
-                    className="w-full rounded-[var(--radius-btn)] border-[1.5px] border-separateur bg-blanc px-4 py-3 text-sm text-anthracite transition-all focus:border-anthracite focus:shadow-[0_0_0_3px_rgba(177,18,27,0.1)] focus:outline-none"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label
-                  htmlFor="email"
-                  className="mb-1 block text-[9.5px] font-semibold uppercase tracking-[0.08em] text-anthracite"
-                >
-                  Email <span className="text-cardinal">*</span>
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  className="w-full rounded-[var(--radius-btn)] border-[1.5px] border-separateur bg-blanc px-4 py-3 text-sm text-anthracite transition-all focus:border-anthracite focus:shadow-[0_0_0_3px_rgba(177,18,27,0.1)] focus:outline-none"
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="telephone"
-                  className="mb-1 block text-[9.5px] font-semibold uppercase tracking-[0.08em] text-anthracite"
-                >
-                  Telephone
-                </label>
-                <input
-                  type="tel"
-                  id="telephone"
-                  name="telephone"
-                  className="w-full rounded-[var(--radius-btn)] border-[1.5px] border-separateur bg-blanc px-4 py-3 text-sm text-anthracite transition-all focus:border-anthracite focus:shadow-[0_0_0_3px_rgba(177,18,27,0.1)] focus:outline-none"
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="message"
-                  className="mb-1 block text-[9.5px] font-semibold uppercase tracking-[0.08em] text-anthracite"
-                >
-                  Message <span className="text-cardinal">*</span>
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                  className="w-full rounded-[var(--radius-btn)] border-[1.5px] border-separateur bg-blanc px-4 py-3 text-sm text-anthracite transition-all focus:border-anthracite focus:shadow-[0_0_0_3px_rgba(177,18,27,0.1)] focus:outline-none"
-                />
-              </div>
-
-              <p className="text-[11px] text-gris-moyen">
-                En soumettant ce formulaire, vous acceptez que vos donnees soient
-                traitees conformement a notre politique de confidentialite (RGPD).
-              </p>
-
-              <div>
-                <Button type="submit">
-                  Envoyer
-                  <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-                </Button>
-              </div>
-            </form>
+            <ContactForm />
           </div>
         </Container>
       </section>

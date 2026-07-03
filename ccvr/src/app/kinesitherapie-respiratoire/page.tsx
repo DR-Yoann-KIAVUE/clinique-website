@@ -49,7 +49,7 @@ export default function KinesitherapieRespiratoire() {
                 </p>
               </div>
               <div className="mt-8">
-                <Button href={siteConfig.rdvUrl}>
+                <Button href={siteConfig.rdvKineUrl}>
                   Je prends rendez-vous avec Julie Frachette
                   <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
                 </Button>
