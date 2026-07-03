@@ -1,5 +1,4 @@
 import { Hero } from "@/components/sections/Hero";
-import { Ticker } from "@/components/sections/Ticker";
 import { ServicesGrid } from "@/components/sections/ServicesGrid";
 import { Vo2Section } from "@/components/sections/Vo2Section";
 import { TeamSection } from "@/components/sections/TeamSection";
@@ -15,7 +14,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Ticker />
       <ServicesGrid />
       <Vo2Section />
       <KpiBar />

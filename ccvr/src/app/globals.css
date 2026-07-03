@@ -97,6 +97,38 @@ body {
 }
 
 /* Reduced motion */
+/* Hero annotations */
+.hero-annotation {
+  opacity: 0;
+  animation: heroAnnotationIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes heroAnnotationIn {
+  from {
+    opacity: 0;
+    transform: scale(0.7) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.hero-dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #B1121B;
+  box-shadow: 0 0 0 0 rgba(177, 18, 27, 0.5);
+  animation: heroPulse 2s ease-in-out infinite;
+}
+
+@keyframes heroPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(177, 18, 27, 0.5); }
+  50% { box-shadow: 0 0 0 8px rgba(177, 18, 27, 0); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
