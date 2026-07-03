@@ -3,7 +3,6 @@ import { Container } from "@/components/layout/Container";
 import { PageHero } from "@/components/sections/PageHero";
 import { Button } from "@/components/ui/Button";
 import { siteConfig } from "@/content/site";
-import { ContactForm } from "@/components/ContactForm";
 import { Phone, MapPin, Clock, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -114,23 +113,6 @@ export default function ContactPage() {
         </Container>
       </section>
 
-      {/* Formulaire placeholder */}
-      <section className="bg-perle py-16 lg:py-24">
-        <Container>
-          <div className="mx-auto max-w-2xl">
-            <h2 className="h2 mb-4 text-center">
-              Envoyez-nous un message
-            </h2>
-            <p className="body-l mb-8 text-center text-gris-moyen">
-              Pour toute question ou demande d&apos;information, remplissez le
-              formulaire ci-dessous. Nous vous repondrons dans les meilleurs
-              delais.
-            </p>
-
-            <ContactForm />
-          </div>
-        </Container>
-      </section>
-    </>
+</>
   );
 }
