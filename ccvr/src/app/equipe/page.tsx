@@ -76,7 +76,7 @@ export default function EquipePage() {
                 {otherMembers.map((member) => {
                   const rdvHref = rdvByName[member.name];
                   return (
-                    <ScrollRevealItem key={member.name}>
+                    <ScrollRevealItem key={member.image}>
                       <div className="flex flex-col gap-4">
                         <DoctorCard
                           name={member.name}

@@ -1,5 +1,5 @@
 interface DoctorCardProps {
-  name: string;
+  name?: string;
   title: string;
   description: string;
   image: string;
@@ -18,8 +18,10 @@ export function DoctorCard({ name, title, description, image }: DoctorCardProps)
       />
 
       <div className="p-6">
-        <h3 className="h3 text-anthracite">{name}</h3>
-        <p className="mt-1 text-sm font-medium text-cardinal">{title}</p>
+        <h3 className="h3 text-anthracite">{name || title}</h3>
+        {name ? (
+          <p className="mt-1 text-sm font-medium text-cardinal">{title}</p>
+        ) : null}
         <p className="body-m mt-3 text-gris-moyen">{description}</p>
       </div>
     </div>

@@ -247,10 +247,10 @@ export const teamMembers = {
       image: "/images/Jade.png",
     },
     {
-      name: "Laura Audoly",
+      name: "", // nom volontairement non affiche
       title: "Assistante Medicale",
       description:
-        "Laura accompagne les patients dans leur parcours administratif et contribue au bon fonctionnement quotidien de la clinique avec rigueur et bienveillance.",
+        "Elle accompagne les patients dans leur parcours administratif et contribue au bon fonctionnement quotidien de la clinique avec rigueur et bienveillance.",
       image: "/images/laura-audoly.png",
     },
   ],
