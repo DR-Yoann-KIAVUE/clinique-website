@@ -3,6 +3,7 @@ import { Container } from "@/components/layout/Container";
 import { PageHero } from "@/components/sections/PageHero";
 import { Button } from "@/components/ui/Button";
 import { Stars } from "@/components/ui/Stars";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { examens, siteConfig } from "@/content/site";
 import { ArrowRight } from "lucide-react";
 
@@ -41,7 +42,9 @@ export default function ExamensPage() {
       {/* Scroll stack des actes */}
       <section className="pb-16 lg:pb-24">
         <Container>
-          <h2 className="h2 mb-10 text-center">Nos actes</h2>
+          <ScrollReveal>
+            <h2 className="h2 mb-10 text-center">Nos actes</h2>
+          </ScrollReveal>
           <div className="mx-auto max-w-3xl space-y-4">
             {examens.map((examen, i) => (
               <div
@@ -69,32 +72,34 @@ export default function ExamensPage() {
       {/* SEO text */}
       <section className="bg-perle py-16 lg:py-24">
         <Container>
-          <div className="mx-auto max-w-3xl">
-            <h2 className="h2 mb-6">
-              Votre centre d&apos;examens cardiologiques a Saint-Raphael
-            </h2>
-            <div className="flex flex-col gap-4 body-l text-gris-moyen">
-              <p>
-                La Clinique Cardiovasculaire Raphaeloise, fondee par le Dr Yoann
-                Kiavue, est un centre de reference en cardiologie a
-                Saint-Raphael. Situee au Pole Epsilon 3, elle propose
-                l&apos;ensemble des examens cardiologiques non invasifs dans un
-                environnement medical moderne.
-              </p>
-              <p>
-                L&apos;equipe de la CCVR — cardiologues, infirmieres specialisees
-                et assistante medicale — vous accompagne a chaque etape de votre
-                parcours de soins, du depistage a la prevention, en passant par
-                le diagnostic et le suivi.
-              </p>
+          <ScrollReveal>
+            <div className="mx-auto max-w-3xl">
+              <h2 className="h2 mb-6">
+                Votre centre d&apos;examens cardiologiques a Saint-Raphael
+              </h2>
+              <div className="flex flex-col gap-4 body-l text-gris-moyen">
+                <p>
+                  La Clinique Cardiovasculaire Raphaeloise, fondee par le Dr Yoann
+                  Kiavue, est un centre de reference en cardiologie a
+                  Saint-Raphael. Situee au Pole Epsilon 3, elle propose
+                  l&apos;ensemble des examens cardiologiques non invasifs dans un
+                  environnement medical moderne.
+                </p>
+                <p>
+                  L&apos;equipe de la CCVR — cardiologues, infirmieres specialisees
+                  et assistante medicale — vous accompagne a chaque etape de votre
+                  parcours de soins, du depistage a la prevention, en passant par
+                  le diagnostic et le suivi.
+                </p>
+              </div>
+              <div className="mt-8">
+                <Button href={siteConfig.rdvCardioUrl}>
+                  Prendre rendez-vous
+                  <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
+                </Button>
+              </div>
             </div>
-            <div className="mt-8">
-              <Button href={siteConfig.rdvCardioUrl}>
-                Prendre rendez-vous
-                <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-              </Button>
-            </div>
-          </div>
+          </ScrollReveal>
         </Container>
       </section>
     </>

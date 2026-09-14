@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Container } from "@/components/layout/Container";
+import { ScrollReveal, ScrollRevealItem } from "@/components/ui/ScrollReveal";
 
 const stats = [
   {
@@ -114,31 +115,34 @@ export function KpiBar() {
   return (
     <section ref={sectionRef} className="bg-blanc py-16 lg:py-24">
       <Container>
-        <h2 className="mx-auto mb-12 max-w-xl text-center font-display text-[28px] font-black leading-[1.1] tracking-tight text-anthracite sm:text-[36px] lg:text-[42px]">
-          Des chiffres qui <em className="italic">parlent</em>
-        </h2>
+        <ScrollReveal>
+          <h2 className="mx-auto mb-12 max-w-xl text-center font-display text-[28px] font-black leading-[1.1] tracking-tight text-anthracite sm:text-[36px] lg:text-[42px]">
+            Des chiffres qui <em className="italic">parlent</em>
+          </h2>
+        </ScrollReveal>
 
-        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-5">
+        <ScrollReveal stagger className="grid grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-5">
           {stats.map((stat) => (
-            <div
-              key={stat.label}
-              className={`flex flex-col justify-between rounded-[var(--radius-card)] p-5 lg:aspect-[4/4] lg:p-6 ${stat.bg}`}
-            >
-              <span className="font-display text-[28px] font-black leading-none tracking-tight sm:text-[34px] lg:text-[40px]">
-                <CountUp
-                  target={stat.target}
-                  suffix={stat.suffix}
-                  decimals={stat.decimals}
-                  format={stat.format}
-                  running={visible}
-                />
-              </span>
-              <p className="mt-auto pt-8 text-sm leading-snug opacity-60">
-                {stat.label}
-              </p>
-            </div>
+            <ScrollRevealItem key={stat.label}>
+              <div
+                className={`flex flex-col justify-between rounded-[var(--radius-card)] p-5 lg:aspect-[4/4] lg:p-6 ${stat.bg}`}
+              >
+                <span className="font-display text-[28px] font-black leading-none tracking-tight sm:text-[34px] lg:text-[40px]">
+                  <CountUp
+                    target={stat.target}
+                    suffix={stat.suffix}
+                    decimals={stat.decimals}
+                    format={stat.format}
+                    running={visible}
+                  />
+                </span>
+                <p className="mt-auto pt-8 text-sm leading-snug opacity-60">
+                  {stat.label}
+                </p>
+              </div>
+            </ScrollRevealItem>
           ))}
-        </div>
+        </ScrollReveal>
       </Container>
     </section>
   );

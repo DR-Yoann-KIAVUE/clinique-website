@@ -3,6 +3,7 @@ import { Container } from "@/components/layout/Container";
 import { PageHero } from "@/components/sections/PageHero";
 import { DoctorCard } from "@/components/ui/DoctorCard";
 import { Button } from "@/components/ui/Button";
+import { ScrollReveal, ScrollRevealItem } from "@/components/ui/ScrollReveal";
 import { teamMembers, siteConfig } from "@/content/site";
 import { ArrowRight } from "lucide-react";
 
@@ -38,54 +39,62 @@ export default function EquipePage() {
           <div className="flex flex-col gap-16">
             {/* Cardiologues — 2 colonnes */}
             <div>
-              <h2 className="h2 mb-8">Equipe Medicale — Cardiologues</h2>
-              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              <ScrollReveal>
+                <h2 className="h2 mb-8">Equipe Medicale — Cardiologues</h2>
+              </ScrollReveal>
+              <ScrollReveal stagger className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {teamMembers.cardiologues.map((member) => {
                   const rdvHref = member.name === "Dr Sergio Ceraso"
                     ? siteConfig.rdvCerasoUrl
                     : siteConfig.rdvCardioUrl;
                   return (
-                    <div key={member.name} className="flex flex-col gap-4">
-                      <DoctorCard
-                        name={member.name}
-                        title={member.title}
-                        description={member.description}
-                        image={member.image}
-                      />
-                      <Button href={rdvHref} size="sm" className="w-full">
-                        Je prends rendez-vous
-                        <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-                      </Button>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Reste de l'equipe — 3 colonnes */}
-            <div>
-              <h2 className="h2 mb-8">L&apos;equipe au complet</h2>
-              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                {otherMembers.map((member) => {
-                  const rdvHref = rdvByName[member.name];
-                  return (
-                    <div key={member.name} className="flex flex-col gap-4">
-                      <DoctorCard
-                        name={member.name}
-                        title={member.title}
-                        description={member.description}
-                        image={member.image}
-                      />
-                      {rdvHref && (
+                    <ScrollRevealItem key={member.name}>
+                      <div className="flex flex-col gap-4">
+                        <DoctorCard
+                          name={member.name}
+                          title={member.title}
+                          description={member.description}
+                          image={member.image}
+                        />
                         <Button href={rdvHref} size="sm" className="w-full">
                           Je prends rendez-vous
                           <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
                         </Button>
-                      )}
-                    </div>
+                      </div>
+                    </ScrollRevealItem>
                   );
                 })}
-              </div>
+              </ScrollReveal>
+            </div>
+
+            {/* Reste de l'equipe — 3 colonnes */}
+            <div>
+              <ScrollReveal>
+                <h2 className="h2 mb-8">L&apos;equipe au complet</h2>
+              </ScrollReveal>
+              <ScrollReveal stagger className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {otherMembers.map((member) => {
+                  const rdvHref = rdvByName[member.name];
+                  return (
+                    <ScrollRevealItem key={member.name}>
+                      <div className="flex flex-col gap-4">
+                        <DoctorCard
+                          name={member.name}
+                          title={member.title}
+                          description={member.description}
+                          image={member.image}
+                        />
+                        {rdvHref && (
+                          <Button href={rdvHref} size="sm" className="w-full">
+                            Je prends rendez-vous
+                            <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
+                          </Button>
+                        )}
+                      </div>
+                    </ScrollRevealItem>
+                  );
+                })}
+              </ScrollReveal>
             </div>
           </div>
         </Container>

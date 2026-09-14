@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/layout/Container";
 import { PageHero } from "@/components/sections/PageHero";
 import { Button } from "@/components/ui/Button";
+import { ScrollReveal, ScrollRevealItem } from "@/components/ui/ScrollReveal";
 import { siteConfig } from "@/content/site";
 import {
   ArrowRight,
@@ -37,32 +38,34 @@ export default function PreventionPage() {
         style={{ background: "var(--gradient-nuit-cardinale)" }}
       >
         <Container>
-          <div className="mx-auto max-w-3xl text-center">
-            <span className="font-display text-[64px] font-black leading-none text-blanc lg:text-[80px]">
-              8/10
-            </span>
-            <p className="body-l mt-6 text-blanc/70">
-              Les maladies cardiovasculaires restent la premiere cause de
-              mortalite dans le monde. Pourtant,{" "}
-              <strong className="text-blanc">
-                8 infarctus sur 10 pourraient etre evites
-              </strong>{" "}
-              grace a une prevention active.
-            </p>
-            <p className="body-l mt-4 text-blanc/70">
-              La CCVR place la prevention cardiovasculaire au rang de priorite
-              de sante publique.
-            </p>
-            <div className="mt-8">
-              <Button
-                variant="outline-white"
-                href="#actions"
-              >
-                Decouvrez notre approche globale
-                <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
-              </Button>
+          <ScrollReveal>
+            <div className="mx-auto max-w-3xl text-center">
+              <span className="font-display text-[64px] font-black leading-none text-blanc lg:text-[80px]">
+                8/10
+              </span>
+              <p className="body-l mt-6 text-blanc/70">
+                Les maladies cardiovasculaires restent la premiere cause de
+                mortalite dans le monde. Pourtant,{" "}
+                <strong className="text-blanc">
+                  8 infarctus sur 10 pourraient etre evites
+                </strong>{" "}
+                grace a une prevention active.
+              </p>
+              <p className="body-l mt-4 text-blanc/70">
+                La CCVR place la prevention cardiovasculaire au rang de priorite
+                de sante publique.
+              </p>
+              <div className="mt-8">
+                <Button
+                  variant="outline-white"
+                  href="#actions"
+                >
+                  Decouvrez notre approche globale
+                  <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
+                </Button>
+              </div>
             </div>
-          </div>
+          </ScrollReveal>
         </Container>
       </section>
 
@@ -70,16 +73,18 @@ export default function PreventionPage() {
       <section className="py-16 lg:py-24">
         <Container>
           <div className="mx-auto max-w-3xl">
-            <h2 className="h2 mb-6 text-center">
-              Pourquoi la prevention cardiovasculaire est essentielle ?
-            </h2>
-            <p className="body-l mb-10 text-center text-gris-moyen">
-              Une vie plus longue, plus active, plus sereine. La prevention
-              cardiovasculaire permet d&apos;identifier et de maitriser les
-              facteurs de risque avant qu&apos;ils ne deviennent des maladies.
-            </p>
+            <ScrollReveal>
+              <h2 className="h2 mb-6 text-center">
+                Pourquoi la prevention cardiovasculaire est essentielle ?
+              </h2>
+              <p className="body-l mb-10 text-center text-gris-moyen">
+                Une vie plus longue, plus active, plus sereine. La prevention
+                cardiovasculaire permet d&apos;identifier et de maitriser les
+                facteurs de risque avant qu&apos;ils ne deviennent des maladies.
+              </p>
+            </ScrollReveal>
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <ScrollReveal stagger className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 {
                   icon: Gauge,
@@ -112,20 +117,19 @@ export default function PreventionPage() {
                   text: "Des antecedents cardiovasculaires familiaux augmentent votre risque. Un bilan de prevention s'impose.",
                 },
               ].map((item) => (
-                <div
-                  key={item.title}
-                  className="flex flex-col gap-3 rounded-[var(--radius-card)] bg-perle p-6"
-                >
-                  <item.icon
-                    size={24}
-                    strokeWidth={1.2}
-                    className="text-cardinal"
-                  />
-                  <h3 className="h3">{item.title}</h3>
-                  <p className="body-m text-gris-moyen">{item.text}</p>
-                </div>
+                <ScrollRevealItem key={item.title}>
+                  <div className="flex flex-col gap-3 rounded-[var(--radius-card)] bg-perle p-6">
+                    <item.icon
+                      size={24}
+                      strokeWidth={1.2}
+                      className="text-cardinal"
+                    />
+                    <h3 className="h3">{item.title}</h3>
+                    <p className="body-m text-gris-moyen">{item.text}</p>
+                  </div>
+                </ScrollRevealItem>
               ))}
-            </div>
+            </ScrollReveal>
           </div>
         </Container>
       </section>
@@ -133,59 +137,65 @@ export default function PreventionPage() {
       {/* Actions de prevention */}
       <section id="actions" className="bg-perle py-16 lg:py-24">
         <Container>
-          <h2 className="h2 mb-10 text-center">
-            Nos actions de prevention
-          </h2>
+          <ScrollReveal>
+            <h2 className="h2 mb-10 text-center">
+              Nos actions de prevention
+            </h2>
+          </ScrollReveal>
 
-          <div className="grid gap-8 lg:grid-cols-2">
+          <ScrollReveal stagger className="grid gap-8 lg:grid-cols-2">
             {/* Podcast */}
-            <a
-              href="/prevention/podcast"
-              className="group flex flex-col gap-4 rounded-[var(--radius-card)] border border-transparent bg-blanc p-8 shadow-sm transition-all duration-[180ms] hover:-translate-y-[3px] hover:border-cardinal hover:shadow-md"
-            >
-              <div className="flex h-12 w-12 items-center justify-center rounded-[7px] bg-teinte-chaude">
-                <Mic size={24} strokeWidth={1.2} className="text-cardinal" />
-              </div>
-              <h3 className="h2">Podcast Dryk.Cardio</h3>
-              <p className="body-l text-gris-moyen">
-                Le podcast de prevention cardiovasculaire du Dr Kiavue. Des
-                conseils pratiques et de l&apos;information claire pour comprendre,
-                prevenir et proteger votre coeur.
-              </p>
-              <span className="mt-auto inline-flex items-center gap-2 font-display font-bold text-[10px] uppercase tracking-[0.14em] text-cardinal">
-                Ecouter le podcast
-                <ArrowRight
-                  size={14}
-                  strokeWidth={1.2}
-                  className="transition-transform group-hover:translate-x-1"
-                />
-              </span>
-            </a>
+            <ScrollRevealItem>
+              <a
+                href="/prevention/podcast"
+                className="group flex flex-col gap-4 rounded-[var(--radius-card)] border border-transparent bg-blanc p-8 shadow-sm transition-all duration-[180ms] hover:-translate-y-[3px] hover:border-cardinal hover:shadow-md"
+              >
+                <div className="flex h-12 w-12 items-center justify-center rounded-[7px] bg-teinte-chaude">
+                  <Mic size={24} strokeWidth={1.2} className="text-cardinal" />
+                </div>
+                <h3 className="h2">Podcast Dryk.Cardio</h3>
+                <p className="body-l text-gris-moyen">
+                  Le podcast de prevention cardiovasculaire du Dr Kiavue. Des
+                  conseils pratiques et de l&apos;information claire pour comprendre,
+                  prevenir et proteger votre coeur.
+                </p>
+                <span className="mt-auto inline-flex items-center gap-2 font-display font-bold text-[10px] uppercase tracking-[0.14em] text-cardinal">
+                  Ecouter le podcast
+                  <ArrowRight
+                    size={14}
+                    strokeWidth={1.2}
+                    className="transition-transform group-hover:translate-x-1"
+                  />
+                </span>
+              </a>
+            </ScrollRevealItem>
 
             {/* Association */}
-            <a
-              href="/prevention/association-luciani"
-              className="group flex flex-col gap-4 rounded-[var(--radius-card)] border border-transparent bg-blanc p-8 shadow-sm transition-all duration-[180ms] hover:-translate-y-[3px] hover:border-cardinal hover:shadow-md"
-            >
-              <div className="flex h-12 w-12 items-center justify-center rounded-[7px] bg-teinte-chaude">
-                <Users size={24} strokeWidth={1.2} className="text-cardinal" />
-              </div>
-              <h3 className="h2">Association LUCIANI</h3>
-              <p className="body-l text-gris-moyen">
-                Fondee par le Dr Kiavue, l&apos;Association LUCIANI a pour
-                mission de prevenir, accompagner et former. Sport adapte,
-                information sante et prevention pour tous.
-              </p>
-              <span className="mt-auto inline-flex items-center gap-2 font-display font-bold text-[10px] uppercase tracking-[0.14em] text-cardinal">
-                Decouvrir l&apos;association
-                <ArrowRight
-                  size={14}
-                  strokeWidth={1.2}
-                  className="transition-transform group-hover:translate-x-1"
-                />
-              </span>
-            </a>
-          </div>
+            <ScrollRevealItem>
+              <a
+                href="/prevention/association-luciani"
+                className="group flex flex-col gap-4 rounded-[var(--radius-card)] border border-transparent bg-blanc p-8 shadow-sm transition-all duration-[180ms] hover:-translate-y-[3px] hover:border-cardinal hover:shadow-md"
+              >
+                <div className="flex h-12 w-12 items-center justify-center rounded-[7px] bg-teinte-chaude">
+                  <Users size={24} strokeWidth={1.2} className="text-cardinal" />
+                </div>
+                <h3 className="h2">Association LUCIANI</h3>
+                <p className="body-l text-gris-moyen">
+                  Fondee par le Dr Kiavue, l&apos;Association LUCIANI a pour
+                  mission de prevenir, accompagner et former. Sport adapte,
+                  information sante et prevention pour tous.
+                </p>
+                <span className="mt-auto inline-flex items-center gap-2 font-display font-bold text-[10px] uppercase tracking-[0.14em] text-cardinal">
+                  Decouvrir l&apos;association
+                  <ArrowRight
+                    size={14}
+                    strokeWidth={1.2}
+                    className="transition-transform group-hover:translate-x-1"
+                  />
+                </span>
+              </a>
+            </ScrollRevealItem>
+          </ScrollReveal>
         </Container>
       </section>
 

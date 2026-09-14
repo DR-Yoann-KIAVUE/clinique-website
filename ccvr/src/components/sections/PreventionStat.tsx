@@ -1,5 +1,8 @@
+"use client";
+
 import { Container } from "@/components/layout/Container";
 import { Button } from "@/components/ui/Button";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { ArrowRight } from "lucide-react";
 
 export function PreventionStat() {
@@ -9,7 +12,7 @@ export function PreventionStat() {
       style={{ background: "var(--gradient-nuit-cardinale)" }}
     >
       <Container>
-        <div className="flex flex-col items-center gap-8 text-center">
+        <ScrollReveal className="flex flex-col items-center gap-8 text-center">
           <span className="eyebrow text-xs text-blanc/50">Prevention</span>
           <div className="flex items-baseline gap-2">
             <span className="font-display text-[64px] font-black leading-none tracking-tight text-blanc lg:text-[80px]">
@@ -24,7 +27,7 @@ export function PreventionStat() {
             Decouvrir nos actions de prevention
             <ArrowRight size={14} strokeWidth={1.2} className="ml-2" />
           </Button>
-        </div>
+        </ScrollReveal>
       </Container>
     </section>
   );
