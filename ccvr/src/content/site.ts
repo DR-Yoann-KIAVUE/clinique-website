@@ -240,7 +240,7 @@ export const teamMembers = {
   ],
   secretariat: [
     {
-      name: "Jade Nadeau",
+      name: "Jade", // prenom seul, a sa demande
       title: "Assistante Medicale",
       description:
         "Premier point de contact de la clinique, Jade accueille les patients, gere les rendez-vous et assure la coordination administrative avec l'equipe medicale.",
