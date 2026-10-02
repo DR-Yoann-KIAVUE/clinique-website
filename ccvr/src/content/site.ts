@@ -3,7 +3,7 @@ export const siteConfig = {
   acronym: "CCVR",
   description:
     "Cabinet de cardiologie a Saint-Raphael specialise en prevention cardiovasculaire, examens cardiaques et VO2max. Dr. Yoann Kiavue, cardiologue.",
-  url: "https://www.ccvr.fr",
+  url: "https://www.clinique-cardiovasculaire-raphaeloise.fr",
   phone: "+33 7 83 46 83 37",
   phoneDisplay: "07 83 46 83 37",
   email: "contact@ccvr.fr",

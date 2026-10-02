@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { medicalClinicSchema } from "@/lib/schema";
+import { siteConfig } from "@/content/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -35,7 +36,7 @@ const exo2 = Exo_2({
 // Until then, Exo 2 serves as the fallback for --font-display (see globals.css @theme).
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.ccvr.fr"),
+  metadataBase: new URL(siteConfig.url),
   title: {
     default:
       "CCVR | Clinique Cardiovasculaire Raphaeloise - Cardiologue Saint-Raphael",
